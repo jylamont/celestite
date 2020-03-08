@@ -442,7 +442,7 @@ This adds the `celestite_render` macro and sets up the `@vue_context` and `@sapp
 
   class ApplicationController < Amber::Controller::Base
     include JasperHelpers
-+   include CrystalVue::Adapter::Amber
++   include Celestite::Adapter::Amber
   end
 ```
 
